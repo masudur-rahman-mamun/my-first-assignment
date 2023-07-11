@@ -1,0 +1,131 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* For Header Section */
+header {
+
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 800px;
+}
+
+.banner-text h1 {
+    font-size: 80px;
+    font-weight: 900;
+}
+
+.banner-text p {
+    color: rgba(39, 39, 39, 0.60);
+    /* font-style: normal; */
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 15px;
+    padding-bottom: 20px;
+    /* letter-spacing: .5px; */
+
+}
+
+.btn {
+    background-color: #E55473;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 20px 35px;
+    border: 0;
+    font-size: 20px;
+}
+
+.fst-img {
+    width: 580px;
+    padding-top: 70px;
+}
+
+/*  For Main Section */
+
+.main-section {}
+
+.feature {
+    text-align: center;
+}
+
+.feature h2 {
+    font-size: 50px;
+    color: rgb(39, 39, 39);
+    font-weight: 800;
+    margin-top: 110px;
+}
+
+.feature p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.display {
+    /* margin: 0 auto; */
+    display: flex;
+    padding-top: 120px;
+    /* align-items: center; */
+    justify-content: center;
+    /* justify-content: space-around; */
+}
+
+.display p {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+.dis-one {
+    width: 560px;
+    height: 640px;
+    margin: 0px 20px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+
+}
+
+.dis-img-one {
+    width: 350px;
+    height: 575px;
+    margin: 0px 105px;
+    margin-top: 65px;
+}
+.dis-two{
+    width: 560px;
+    height: 640px;
+    margin: 0px 20px;
+    border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+}
+.dis-img-two {
+    width: 380px;
+    height: 390px;
+    margin: 0px 75px;
+    margin-bottom: 100px;
+    margin-top: 150px;
+
+}
+.dis-three{
+    width: 560px;
+    height: 640px;
+    margin: 0px 20px;
+    border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+}
+.dis-img-three {
+    width: 330px;
+    height: 550px;
+    margin: 0px 115px;
+    margin-top: 90px;
+}
