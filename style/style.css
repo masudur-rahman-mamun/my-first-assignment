@@ -181,20 +181,23 @@ header {
     text-align: center;
     margin-top: 75px;
 }
-.mid-description h3{
+
+.mid-description h3 {
     color: #272727;
-font-size: 45px;
-font-weight: 800;
+    font-size: 45px;
+    font-weight: 800;
 }
-.off{
-   color: #E55473;
+
+.off {
+    color: #E55473;
 }
-.mid-description p{
+
+.mid-description p {
     color: rgba(39, 39, 39, 0.60);
-font-size: 18px;
-font-weight: 400;
-line-height: 25px;
-padding-bottom: 25px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    padding-bottom: 25px;
 }
 
 .mid-img {
@@ -225,7 +228,7 @@ padding-bottom: 25px;
 
 .ins-glr {
     display: flex;
-    width: 50%;
+    width: 55%;
     margin: 0 auto;
     padding: 75px 0px;
 }
@@ -233,6 +236,47 @@ padding-bottom: 25px;
 .ins-img {
     width: 340px;
     height: 480px;
-    margin: 0px 15px;  
+    margin: 0px 15px;
+}
 
+/* For Subscription Section */
+.subs-section {
+    background-image: url("../image/subs-img.png");
+    height: 450px;
+    width: 1450px;
+    margin: 0 auto;
+    margin: 80px 120pxpx;
+    background-repeat: no-repeat;
+}
+
+.subs-title {
+    align-items: center;
+    padding-top: 130px;
+}
+
+.subs-title h2 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.subs-title p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.subs-title input {
+    width: 680px;
+    height: 45px;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    padding: 10px;
+    margin: 20px;
 }
